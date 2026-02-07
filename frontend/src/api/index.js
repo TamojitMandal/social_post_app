@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000' }); // Your backend URL
+const API = axios.create({ baseURL: 'https://social-post-app-cdjr.onrender.com' }); // Your backend URL
 
 // THIS IS THE CRITICAL PART:
 API.interceptors.request.use((req) => {
